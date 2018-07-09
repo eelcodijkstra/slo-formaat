@@ -11,11 +11,10 @@ SLO-publicatieformaat (voorstel)
 
    formaat-wensen.rst
    formaat-voorstel.rst
-   sphinx-voorbeelden.rst   
+   sphinx-voorbeelden.rst
 
 Indices and tables
 ==================
 
 * :ref:`genindex`
-* :ref:`modindex`
 * :ref:`search`
