@@ -1,0 +1,8 @@
+****************
+Formaat-voorstel
+****************
+
+* Sphinx
+* reStructuredText (rst)
+    * uitbreidbaar
+* o.a. gebruikt voor Python documentatie; https://readthedocs.org
