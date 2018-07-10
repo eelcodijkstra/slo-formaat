@@ -105,8 +105,10 @@ html_sidebars = {
         'about.html',
         'navigation.html',
         'relations.html',
+        'externallinks.html',
         'searchbox.html',
         'donate.html',
+
     ]
 }
 

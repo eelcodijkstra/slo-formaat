@@ -12,6 +12,8 @@ SLO-publicatieformaat (voorstel)
    formaat-wensen.rst
    formaat-voorstel.rst
    sphinx-voorbeelden.rst
+   github.rst
+   jupyter.rst
 
 Indices and tables
 ==================
