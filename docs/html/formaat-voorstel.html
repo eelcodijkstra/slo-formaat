@@ -44,12 +44,20 @@ het systeem dat gebruikt wordt voor de documentatie van Python en allerlei Pytho
 <li><p class="first">relatief eenvoudig uit te breiden</p>
 <blockquote>
 <div><ul class="simple">
-<li>met componenten van elders (o.a. Runestone)</li>
-<li>met eigen componenten</li>
+<li>met componenten van elders (o.a. Runestone);</li>
+<li>met eigen componenten (o.a. voor feedback).</li>
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">tekst-gebaseerd: goed te combineren met versiebeheer (git, GitHub)</p>
+<li><p class="first">tekst-gebaseerd</p>
+<blockquote>
+<div><ul class="simple">
+<li>goed te combineren met versiebeheer (git, GitHub),</li>
+<li>daardoor geschikt voor het samenwerken aan een volgende versie,</li>
+<li>en voor het maken van afgeleide versies/arrangementen;</li>
+<li><strong>nadeel</strong> voor beginnende gebruikers: geen WYSIWYG</li>
+</ul>
+</div></blockquote>
 </li>
 <li><p class="first">resultaat is een <em>statische website</em></p>
 <blockquote>
@@ -60,7 +68,7 @@ het systeem dat gebruikt wordt voor de documentatie van Python en allerlei Pytho
 </li>
 <li><p class="first">gebaseerd op reStructuredText: iets complexer dan Markdown, maar met meer (uitbreidings)mogelijkheden.</p>
 </li>
-<li><p class="first">naast online/website ook andere mogelijkheden:</p>
+<li><p class="first">naast online/website ook andere uitvoermogelijkheden:</p>
 <blockquote>
 <div><ul class="simple">
 <li>PDF/papier (via LaTeX)</li>
@@ -68,7 +76,7 @@ het systeem dat gebruikt wordt voor de documentatie van Python en allerlei Pytho
 </ul>
 </div></blockquote>
 </li>
-<li><p class="first">Sphinx wordt veel gebruikt en heeft een grote ondersteunende community</p>
+<li><p class="first">Sphinx wordt veel gebruikt en heeft een grote ondersteunende community.</p>
 </li>
 </ul>
 </div>
@@ -90,7 +98,6 @@ het systeem dat gebruikt wordt voor de documentatie van Python en allerlei Pytho
 </ul>
 <div class="section" id="runestone">
 <h3>Runestone<a class="headerlink" href="#runestone" title="Permalink naar deze titel">¶</a></h3>
-<p>Runestone academy (link) heeft een verzameling Sphinx-componenten gedefinieerd voor programmeeronderwijs en interactief onderwijsmateriaal.</p>
 <p>Runestone Academy biedt een platform voor het publiceren van interactief lesmateriaal,
 vooral voor informatica- en programmeeronderwijs.</p>
 <ul>
@@ -108,28 +115,43 @@ vooral voor informatica- en programmeeronderwijs.</p>
 <li><p class="first"><a class="reference external" href="https://runestone.academy/runestone/static/StudentCSP/index.html">https://runestone.academy/runestone/static/StudentCSP/index.html</a></p>
 </li>
 </ul>
+<p>Runestone Academy heeft een verzameling Sphinx-componenten gedefinieerd voor programmeeronderwijs en interactief onderwijsmateriaal.</p>
+<ul class="simple">
+<li><a class="reference external" href="https://runestone.academy/runestone/static/overview/overview.html">https://runestone.academy/runestone/static/overview/overview.html</a></li>
+<li><a class="reference external" href="https://github.com/RunestoneInteractive/RunestoneComponents">https://github.com/RunestoneInteractive/RunestoneComponents</a></li>
+</ul>
 </div>
 </div>
 <div class="section" id="jupyter-notebook">
 <h2>Jupyter Notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink naar deze titel">¶</a></h2>
+<p>Jupyter Notebook (<a class="reference external" href="https://jupyter.org">https://jupyter.org</a>) biedt interactieve notebooks voor allerlei programmeertalen,
+o.a. Python, R, shell, JavaScript.
+Deze notebooks worden veel gebruikt door onderzoekers in de wereld van Data Science en Computational Science.
+Met deze notebooks kan de afstand tussen onderzoek (programmeren/rekenen) en publicatie aanmerkelijk ingekort worden.
+Ook voor (informatica)onderwijs hebben deze notebooks grote voordelen,
+onder andere omdat opdrachten voor leerlingen op elk gewenst niveau van scaffolding voorzien kunnen worden.</p>
+<blockquote>
+<div>Het team voor het thema Programmeerparadigma’s/Functioneel Programmeren werkt momenteel met Jupyter Notebooks,
+voor de programmeertaal Elm.</div></blockquote>
+<p>Jupyter Notebooks zijn te gebruiken in combinatie met Sphinx:</p>
 <ul class="simple">
-<li><dl class="first docutils">
-<dt>Jupyter Notebook</dt>
-<dd><ul class="first last">
-<li>interactief</li>
-<li>vrije afbakening tussen <em>scaffolding</em> en eigen werk</li>
-<li>professioneel (in de wereld van Data Science/Computational Science)</li>
-<li>kortere loop van rekenen tot publicatie.</li>
+<li>zie: <a class="reference external" href="https://nbsphinx.readthedocs.io/en/0.3.3/">https://nbsphinx.readthedocs.io/en/0.3.3/</a></li>
 </ul>
-</dd>
-</dl>
-</li>
-</ul>
+<p>Het lijkt ons belangrijk om de ontwikkelingen rond Jupyter Notebooks te volgen,
+en waar relevant met dit hulpmiddel te experimenteren.</p>
+</div>
+<div class="section" id="github">
+<h2>GitHub<a class="headerlink" href="#github" title="Permalink naar deze titel">¶</a></h2>
 <div class="admonition-todo admonition" id="index-0">
+<p class="first admonition-title">Te doen</p>
+<p class="last">Gebruik van git/GitHub voor versiebeheer;
+en voor projectdoeleinden zoals feedback/issues, planning, documentatie, enz.</p>
+</div>
+<div class="admonition-todo admonition" id="index-1">
 <p class="first admonition-title">Te doen</p>
 <p class="last">Licentie-wensen en -consequenties bespreken (bijv. CC-BY-SA, als in Wikipedia)</p>
 </div>
-<div class="admonition-todo admonition" id="index-1">
+<div class="admonition-todo admonition" id="index-2">
 <p class="first admonition-title">Te doen</p>
 <p class="last">Bestudeerde alternatieven bespreken, o.a. Wikiwijs.
 Dit voorstel formuleren als (aanzet tot) “Wikiwijs 2.0”.
@@ -164,6 +186,7 @@ HTML als alternatief?</p>
 </ul>
 </li>
 <li class="toctree-l2"><a class="reference internal" href="#jupyter-notebook">Jupyter Notebook</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#github">GitHub</a></li>
 </ul>
 </li>
 <li class="toctree-l1"><a class="reference internal" href="sphinx-voorbeelden.html">Sphinx voorbeelden</a></li>
