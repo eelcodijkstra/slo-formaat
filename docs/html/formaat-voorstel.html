@@ -35,17 +35,84 @@
             
   <div class="section" id="formaat-voorstel">
 <h1>Formaat-voorstel<a class="headerlink" href="#formaat-voorstel" title="Permalink naar deze titel">¶</a></h1>
-<ul class="simple">
-<li>Sphinx</li>
-<li><dl class="first docutils">
-<dt>reStructuredText (rst)</dt>
-<dd><ul class="first last">
-<li>uitbreidbaar</li>
+<div class="section" id="sphinx">
+<h2>Sphinx<a class="headerlink" href="#sphinx" title="Permalink naar deze titel">¶</a></h2>
+<p>Wij stellen voor om als publicatieformaat Sphinx (<a class="reference external" href="https://sphinx-doc.org">https://sphinx-doc.org</a>) te gebruiken:
+het systeem dat gebruikt wordt voor de documentatie van Python en allerlei Python-gerelateerde projecten.</p>
+<p>Dit formaat heeft de volgende voordelen/eigenschappen:</p>
+<ul>
+<li><p class="first">relatief eenvoudig uit te breiden</p>
+<blockquote>
+<div><ul class="simple">
+<li>met componenten van elders (o.a. Runestone)</li>
+<li>met eigen componenten</li>
 </ul>
-</dd>
-</dl>
+</div></blockquote>
 </li>
-<li>o.a. gebruikt voor Python documentatie; <a class="reference external" href="https://readthedocs.org">https://readthedocs.org</a></li>
+<li><p class="first">tekst-gebaseerd: goed te combineren met versiebeheer (git, GitHub)</p>
+</li>
+<li><p class="first">resultaat is een <em>statische website</em></p>
+<blockquote>
+<div><ul class="simple">
+<li>eenvoudig/goedkoop te hosten (evt. GitHub, )</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">gebaseerd op reStructuredText: iets complexer dan Markdown, maar met meer (uitbreidings)mogelijkheden.</p>
+</li>
+<li><p class="first">naast online/website ook andere mogelijkheden:</p>
+<blockquote>
+<div><ul class="simple">
+<li>PDF/papier (via LaTeX)</li>
+<li>ePub (HTML)</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first">Sphinx wordt veel gebruikt en heeft een grote ondersteunende community</p>
+</li>
+</ul>
+</div>
+<div class="section" id="voorbeelden">
+<h2>Voorbeelden<a class="headerlink" href="#voorbeelden" title="Permalink naar deze titel">¶</a></h2>
+<p>Enkele websites die Sphinx gebruiken:</p>
+<ul>
+<li><p class="first"><a class="reference external" href="https://readthedocs.org">https://readthedocs.org</a></p>
+<blockquote>
+<div><ul class="simple">
+<li><a class="reference external" href="http://docs.godotengine.org/en/3.0/">http://docs.godotengine.org/en/3.0/</a></li>
+<li><a class="reference external" href="http://docs.python-requests.org/en/master/">http://docs.python-requests.org/en/master/</a></li>
+<li><a class="reference external" href="https://bbcmicrobitmicropython.readthedocs.io/en/latest/">https://bbcmicrobitmicropython.readthedocs.io/en/latest/</a></li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><a class="reference external" href="https://sphinx-doc.org">https://sphinx-doc.org</a></p>
+</li>
+</ul>
+<div class="section" id="runestone">
+<h3>Runestone<a class="headerlink" href="#runestone" title="Permalink naar deze titel">¶</a></h3>
+<p>Runestone academy (link) heeft een verzameling Sphinx-componenten gedefinieerd voor programmeeronderwijs en interactief onderwijsmateriaal.</p>
+<p>Runestone Academy biedt een platform voor het publiceren van interactief lesmateriaal,
+vooral voor informatica- en programmeeronderwijs.</p>
+<ul>
+<li><p class="first"><a class="reference external" href="https://runestone.academy/runestone/default/courses">https://runestone.academy/runestone/default/courses</a></p>
+<blockquote>
+<div><ul class="simple">
+<li>N.B.: zie het Book Links menu</li>
+</ul>
+</div></blockquote>
+</li>
+<li><p class="first"><a class="reference external" href="https://runestone.academy/runestone/static/thinkcspy/index.html">https://runestone.academy/runestone/static/thinkcspy/index.html</a></p>
+</li>
+<li><p class="first"><a class="reference external" href="https://runestone.academy/runestone/static/pythonds/index.html">https://runestone.academy/runestone/static/pythonds/index.html</a></p>
+</li>
+<li><p class="first"><a class="reference external" href="https://runestone.academy/runestone/static/StudentCSP/index.html">https://runestone.academy/runestone/static/StudentCSP/index.html</a></p>
+</li>
+</ul>
+</div>
+</div>
+<div class="section" id="jupyter-notebook">
+<h2>Jupyter Notebook<a class="headerlink" href="#jupyter-notebook" title="Permalink naar deze titel">¶</a></h2>
+<ul class="simple">
 <li><dl class="first docutils">
 <dt>Jupyter Notebook</dt>
 <dd><ul class="first last">
@@ -61,6 +128,13 @@
 <div class="admonition-todo admonition" id="index-0">
 <p class="first admonition-title">Te doen</p>
 <p class="last">Licentie-wensen en -consequenties bespreken (bijv. CC-BY-SA, als in Wikipedia)</p>
+</div>
+<div class="admonition-todo admonition" id="index-1">
+<p class="first admonition-title">Te doen</p>
+<p class="last">Bestudeerde alternatieven bespreken, o.a. Wikiwijs.
+Dit voorstel formuleren als (aanzet tot) “Wikiwijs 2.0”.
+HTML als alternatief?</p>
+</div>
 </div>
 </div>
 
@@ -83,7 +157,15 @@
 <ul class="current">
 <li class="toctree-l1"><a class="reference internal" href="inleiding.html">Inleiding</a></li>
 <li class="toctree-l1"><a class="reference internal" href="formaat-wensen.html">Formaat-wensen</a></li>
-<li class="toctree-l1 current"><a class="current reference internal" href="#">Formaat-voorstel</a></li>
+<li class="toctree-l1 current"><a class="current reference internal" href="#">Formaat-voorstel</a><ul>
+<li class="toctree-l2"><a class="reference internal" href="#sphinx">Sphinx</a></li>
+<li class="toctree-l2"><a class="reference internal" href="#voorbeelden">Voorbeelden</a><ul>
+<li class="toctree-l3"><a class="reference internal" href="#runestone">Runestone</a></li>
+</ul>
+</li>
+<li class="toctree-l2"><a class="reference internal" href="#jupyter-notebook">Jupyter Notebook</a></li>
+</ul>
+</li>
 <li class="toctree-l1"><a class="reference internal" href="sphinx-voorbeelden.html">Sphinx voorbeelden</a></li>
 <li class="toctree-l1"><a class="reference internal" href="github.html">GitHub</a></li>
 <li class="toctree-l1"><a class="reference internal" href="jupyter.html">Jupyter</a></li>
