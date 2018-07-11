@@ -8,6 +8,8 @@ Tutorials en referentiedocumenten
 
 * Sphinx
 * reStructuredText opmaak
+* read the docs - met Sphinx voorbeelden
+    * https://sphinx-rtd-theme.readthedocs.io/en/latest/demo/structure.html
 * Runestone uitbreidingen
 
 Voorbeelden en best practices

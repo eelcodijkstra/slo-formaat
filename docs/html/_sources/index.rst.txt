@@ -9,11 +9,13 @@ SLO-publicatieformaat (voorstel)
 .. toctree::
    :maxdepth: 4
 
+   inleiding.rst
    formaat-wensen.rst
    formaat-voorstel.rst
    sphinx-voorbeelden.rst
    github.rst
    jupyter.rst
+   todo.rst
 
 Indices and tables
 ==================
