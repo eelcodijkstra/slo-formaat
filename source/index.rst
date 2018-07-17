@@ -10,6 +10,7 @@ SLO-publicatieformaat (voorstel)
    :maxdepth: 4
 
    inleiding.rst
+   formaat-eisen.rst
    formaat-wensen.rst
    formaat-voorstel.rst
    sphinx-voorbeelden.rst
