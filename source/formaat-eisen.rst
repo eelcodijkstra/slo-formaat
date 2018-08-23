@@ -2,7 +2,8 @@
 Formaat-eisen
 *************
 
-We formuleren hier de minimale eisen met betrekking tot het publicatieformaat. Het is belangrijk deze lijst te verifiëren met de belanghebbende (SLO, thema-teams en gebruikers (informatica docenten)).
+We formuleren hier de minimale eisen met betrekking tot het publicatieformaat.
+Het is belangrijk deze lijst te verifiëren met de belanghebbende (SLO, thema-teams en gebruikers (informatica docenten)).
 
 .. contents::
 
@@ -13,26 +14,26 @@ De Stichting Leerplan Ontwikkeling (SLO) is eigenaar van het te publiceren mater
 Het doel van (het ontwikkelen van) dit materiaal is echter om het breed te verspreiden.
 Zo doende zijn de "gebruikerseisen" ook de eisen van de SLO, hier staan díe eisen die daar niet onder vallen.
 
-Zelfredzaamheid thema-teams en gebruikers
------------------------------------------
+Minimale ondersteuning
+----------------------
 
-SLO wil geen groot team in dienst houden om het platform in de lucht te houden.
-Bij voorkeur kunnen thema-teams en gebruikers zichzelf zo veel mogelijk redden.
-Een helpdesk waar mensen terecht kunnen met vragen waar één medewerker een paar uur per week werkt zou voldoende moeten zijn.
+De ondersteuning die SLO kan verlenen tijdens de ontwikkelfase (voor de themateams en pilot-gebruikers) is erg beperkt:
+hooguit een helpdesk-medewerker voor enkele uren per week.
+Voor de gebruiksfase is er geen ondersteuning vanuit SLO mogelijk.
 
-Flexibel en goed gedocumenteerd
--------------------------------
+.. todo::
 
-Bij voorkeur is het publicatieplatform makkelijk te verplaatsen naar een nieuwe host en/of naar nieuwe ondersteunings medewerkers.
-De aard van het project houdt in dat het materiaal langdurig beschikbaar moet blijven en dat in de periode de betrokken personen meerdere keren kunnen veranderen.
-Het publicatie systeem, hosting, ondersteuningswerkszaamheden, etc. moeten daarom makkelijk overdraagbaar zijn.
+  Check ondersteuning SLO
 
-Juridisch in orde
------------------
+Lange levensduur
+----------------
 
-Wanneer SLO materiaal "publiceert" moet ze zeker weten dat ze het recht heeft dit te doen.
-Mocht een thema-team auteursrechtelijk (of anderzijds) beschermd materiaal aanleveren, dan mag dit het andere materiaal nog de SLO in de problemen brengen.
-De preciese implicaties moeten door een jurist onderzocht worden.
+Het materiaal moet langdurig beschikbaar blijven:
+in de gebruiksperiode moet het materiaal inhoudelijk aangepast kunnen worden,
+en moeten dit aangepast kunnen worden aan de veranderende technische en onderwijscontext.
+
+De gebruikte middelen (formaten, software, hosting) moeten daarom langdurig ondersteund worden.
+Veranderingen zoals verplaatsen naar een nieuwe host moeten met beperkte middelen mogelijk zijn.
 
 Thema-team eisen
 ================
@@ -52,13 +53,13 @@ Bekende tools voor het schrijven en verwerken van feedback
 ----------------------------------------------------------
 
 Thema-teams bestaan uit mensen die veelal eerder aan lesmateriaal hebben gewerkt.
-Zodoende hebben ze hun eigen middelen en processen gevonden/ontwikkelt waar ze prettig binnen werken.
+Zodoende hebben ze hun eigen middelen en processen gevonden/ontwikkeld waar ze prettig binnen werken.
 Het publicatie platform moet het mogelijk maken voor ten minste 75% van de schrijvers om te werken in hun voorkeurs tool.
 
 .. note::
 
         Er zal dus een onderzoek gedaan moeten worden om te bepalen wat de voorkeurstools zijn van de huidige en (voorzover dat te bepalen is) toekomstige schrijvers.
-        
+
         Uit dit onderzoek zal ook blijken hoe "versplinterd" de auteurs op dit gebied zijn en dit zal invloed hebben op wat een (kosten) effectief percentage is om op te mikken.
         Als 60% hetzelfde gebruikt en de overige 40% elk iets anders, dan is 60% misschien goed genoeg.
         Als 80% hetzelfde gebruikt, maar een tweede tool door 18% gebruikt wordt dan is het waarschijnlijk wenselijk beiden te ondersteunen, etc.
@@ -69,12 +70,12 @@ Invloed op het eindproduct
 De hoop en verwachting is dat de thema-teams veel tijd en aandacht zullen besteden aan hun materiaal.
 Het is daarom van belang dit werk met gepast respect te behandelen.
 
-Het is bekend dat er schrijvers zijn de rekening houden met zaken als bladspiegel en speciefieke manier van nummeren.
+Het is bekend dat er schrijvers zijn de rekening houden met zaken als bladspiegel en specifieke manier van nummeren.
 Dit is echter alleen beschikbaar wanneer uitsluitend de PDF die door de schrijver gemaakt wordt wordt gebruikt.
 Wanneer er behoefte is aan een ander formaat (zie verderop) dan is het nog maar de vraag wat er moet gebeuren.
 
 .. note::
-        
+
         Wanneer er een onderzoek gedaan wordt onder schrijvers dan is dit een aspect wat zeker meegenomen moet worden.
         Met welke aspecten houden schrijvers rekening, en onder welke aannames doen ze dat (a4 print met een bepaalde marge op een kleuren printer)?
         Wat moet er (wat de schrijvers betreft) gedaan worden wanneer hun aannames geen stand houden (grijstinten print, conversie naar HTML, ander papier formaat, etc.)?
@@ -90,7 +91,7 @@ Teams moeten kaders krijgen waar een custom applicatie aan moet voldoen om gehos
 .. note::
 
         Hier zit een spanningsveld.
-        
+
         * we willen niet alles onder de zon ondersteunen
         * we willen teams niet hinderen in hun innovatie
         * we willen voorkomen dat teams zelf gaan hosten (toch?)
@@ -110,7 +111,7 @@ Het verkrijgen van het materiaal in een formaat waar de gebruiker (docent) mee u
 Of de docent leerlingen naar het publicatie-platform kan sturen is secundair, maar waarschijnlijk wel wenselijk.
 
 .. note::
-        
+
         Hoe gebruiken docenten materiaal?
         Willen ze een PDF downloaden en deze printen?
         Willen ze leerlingen een link naar de PDF sturen zodat de leerling zelf kan besluiten wat daar mee te doen (bijvoorbeeld afdrukken, op een e-reader/tablet laden, via een laptop/desktop computer gebruiken, etc.)
@@ -128,7 +129,7 @@ Daarnaast is het onwenselijk als het lesmateriaal continue verandert en je niet 
 Docenten moeten, zonder de laagdrempeligheid te verliezen, de juiste versie kunnen vinden en die beschikbaar kunnen maken aan hun leerlingen.
 
 .. note::
-        
+
         Wederom een spanningsveld
 
         * Studiewijzers die "set it and forget it" zijn, zouden wel eens de norm kunnen zijn.
@@ -139,3 +140,8 @@ Docenten moeten, zonder de laagdrempeligheid te verliezen, de juiste versie kunn
         Wat willen docenten, hoe stellen ze studiewijzers op?
         Wat is een wenselijke/acceptabele update frequentie?
         Als er een stabiele en een cutting-edge release is, welke zou je gebruiken en is het een probleem voor je dat beide versie bestaan?
+
+        Verschillende versies die tegelijk beschikbaar zijn kunnen hier uitkomst bieden:
+        in een studiewijzer verwijs je dan naar een bepaalde versie.
+        Als je als docent een nieuwe versie wilt gebruiken, moet je mogelijk de verwijzingen in de studiewijzer aanpassen.
+        Dit is als het gebruik van een bepaalde druk van een boek.
